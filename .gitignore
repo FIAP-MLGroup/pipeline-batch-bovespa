@@ -47,6 +47,7 @@ Pipfile.lock
 .terraform/
 terraform.tfvars
 terraform.tfvars.json
+.terraform.lock.hcl
 .crash
 *.backup
 *.log
@@ -62,3 +63,4 @@ Thumbs.db
 # -------------------------------------
 awslab.sh
 DEL_*
+*.parquet

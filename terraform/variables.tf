@@ -14,6 +14,9 @@ variable "lambda_function_name" {
     default = "b3-trigger-lambda"
 }
 
+#############################################################################
+# Alterar o account_id de acordo com o ambiente onde o código será aplicado #
+#############################################################################
 variable "lab_role_arn" {
     description = "ARN da IAM Role já existente no ambiente (LabRole)"
     default     = "arn:aws:iam::732955609577:role/LabRole"
