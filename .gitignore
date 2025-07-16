@@ -1,0 +1,64 @@
+# -------------------------------------
+# Python
+# -------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+.venv/
+ENV/
+ENV*/
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtualenv / Poetry / Pipenv
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# Byte-compiled / caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# -------------------------------------
+# Jupyter Notebooks
+# -------------------------------------
+.ipynb_checkpoints
+
+# -------------------------------------
+# VS Code settings
+# -------------------------------------
+.vscode/
+
+# -------------------------------------
+# AWS / Terraform
+# -------------------------------------
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+.crash
+*.backup
+*.log
+
+# -------------------------------------
+# System / Editor files
+# -------------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------------
+# Miscellaneous
+# -------------------------------------
+awslab.sh
+DEL_*
