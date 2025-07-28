@@ -26,5 +26,5 @@ python -m b3_scraper --no-upload
 ### Rodar enviando para S3
 
 ```bash
-python fetch_b3_ibov.py --s3-bucket MEU_BUCKET_RAW
+python -m b3_scraper --s3-bucket MEU_BUCKET_RAW
 ```
