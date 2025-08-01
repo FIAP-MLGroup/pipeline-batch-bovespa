@@ -2,7 +2,9 @@
 
 Este repositório contém a implementação do **pipeline batch** para ingestão e processamento de dados do índice IBOV da B3 na AWS, atendendo aos requisitos do Tech Challenge.
 
----
+## Arquitetura
+
+![Arquitetura do Pipeline Batch Bovespa](assets/images/pipeline-bovespa.png)
 
 ## Estrutura do repositório
 
